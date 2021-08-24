@@ -9,7 +9,7 @@
 </head>
 <body>
   <div id="app" class="container mt-5">
-    <h3>{{titulo}}</h3>
+    <h3 class="text-center">{{titulo}}</h3>
 
     <input type="text" class="form-control my-3" v-model="nuevaTarea" @keyup.enter="agregarTarea">
     <button class="btn btn-primary" @click="agregarTarea">Agregar {{nuevaTarea}}</button>
@@ -28,6 +28,7 @@
       </div>
     </div>
   </div>
+  
   <div class="container mt-5">
     <p class="p-3 bg-info text-white">Resultado de un ejercicio para poner en práctica la librería VueJS haciendo uso, también, de localStorage.</p>
   </div>
